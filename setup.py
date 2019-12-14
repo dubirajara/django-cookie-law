@@ -45,7 +45,7 @@ setup(
     install_requires=[
         'Django>=1.8',
         'https://github.com/mbi/django-classy-tags',
-        '-e git+https://github.com/mbi/django-classy-tags.git@master#egg=django-classy-tags-django3.0'
+        '-e git+https://github.com/mbi/django-classy-tags.git@master#egg=django-classy-tags-django3.0',
         'pytest-runner>=2.11.1'
     ],
     tests_require=[
