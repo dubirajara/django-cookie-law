@@ -44,6 +44,7 @@ setup(
     classifiers=CLASSIFIERS,
     install_requires=[
         'Django>=1.8',
+        'django-classy-tags>=1.0.0',
         'pytest-runner>=2.11.1'
     ],
     tests_require=[
